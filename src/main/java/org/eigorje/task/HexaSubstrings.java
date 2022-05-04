@@ -2,7 +2,7 @@
 * For hexadecimal numbers return min and max of sorted set of substrings
 * Only substring starting with letter and ending with number are considered at response.
 *
-* Examle for a01 substings are "a" "0" "1" "a0" "a01" "01"
+* Example: for input a01 substings are "a" "0" "1" "a0" "a01" "01"
 * so response should be a0 as min and a01 as max
 *
 * Assert.assertTrue(findSubstrings("a01").equals("a0 a01"));
